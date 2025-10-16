@@ -1,0 +1,311 @@
+.contenedor{
+width: 90%;
+max-width:1980px; 
+margin: 0 auto;
+}
+body{
+    
+}
+
+a{
+	width: 10%;
+	font-size: 20px;
+	text-decoration: none;
+	margin:0.2em;
+	display:inline-block;
+	background: rgb(26, 69, 10);
+	color: #fff;
+	padding: 10px 10px;
+	box-shadow: 0px 5px 0px #37d062;
+	}
+
+a:hover{
+box-shadow: 2px 0px 0px 0px #659f3c;
+}
+
+a:active{
+box-shadow: none;
+}
+
+h1{
+text-shadow: 2px 2px 4px #000000;
+text-align: center;
+padding: 30px;
+margin:40px;
+width:80%;
+height: 50px;
+font-weight: bold;
+font-size: 10px;
+}
+div{
+	font-size: 50px;
+	text-align: center;
+padding: 30px;
+margin:40px;
+width:80%;
+height: 50px;
+font-weight: bold;
+font-size: 40px;
+}
+
+
+.flexslider{
+width: 83%;
+height: 0 auto;
+margin: 5em;
+}
+
+.slides{
+width: 85%;
+} 
+ 
+video{
+background:#fff;
+margin: 0.5em;
+width: 75%;
+padding: 10px;
+}
+
+p{
+text-align: justify;
+font-size: 20px;
+padding: 10px;
+}
+
+header{
+text-shadow: 2px 2px 4px #000000;
+padding: 28Px;
+margin: 0 auto;
+font-size: 45px;
+font-style: bold;
+}
+
+div h2{
+
+	width: 90%;
+	display: inline-block;
+	margin: 0 auto;
+	}
+
+.social{
+margin: 2em;
+}
+
+form {
+margin: 0 auto;
+width: 40%;
+padding: 10px 20px;
+margin-top: 20px;
+background: #D8D8D8;
+}
+
+form action{
+margin: 0 auto;
+width: 50%;
+padding: 10px 20px;
+margin-top: 20px;
+background: #D8D8D8;
+}
+
+input, textarea{
+width: 90%;
+margin-bottom: 20px;
+padding: 7px;
+font-size: 17px;
+border: none;
+}
+
+textarea{
+min-height: 100px;
+max-height:  400px;
+max-width: 90%;
+min-width: 90%;
+}
+
+h2{
+text-align: center;
+margin: auto;
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+h3{
+width: 80%;
+height: 500px;
+display: block;
+font-size: 20px;
+padding: 30px;
+}
+
+h4{
+background: #31384a;
+color: #fff;
+width: 82%;
+padding: 10px 10px;
+text-align: center;
+margin: 1em;
+font-size: 30px;
+}
+
+h5{
+background:#31384a; 
+color: #fff;
+width: 80%;
+height: 80px;
+font-size: 50px;
+margin-bottom: 10px;
+text-align: center;
+padding: 20px;
+}
+
+h6{
+background:#31384a; 
+color: #fff;
+width: 500px;
+height: 600px;
+text-align: center;
+font-size:70px;
+padding: 20px 20px;
+}
+
+hr{
+width: 90%;
+display: inline-block;
+margin: 2em;
+}
+
+#boton{
+background: #31384a;
+color: #fff;
+padding:20px;
+}
+
+#boton:hover{
+cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px){
+	
+	a{
+	width:30%;
+	font-size: 15px;
+	margin: 0.5em;
+	}
+	
+
+	img{
+	width: 70%;
+	}
+
+	article{
+	width: 90%;
+	text-align: left;
+	padding: 10px 4px;
+     font-size: 12px;
+     font-size: 24px;
+    
+     margin: 0.5em;
+     width: 78%;
+	}
+
+	p{
+	width: 90%;
+	text-align: left;
+	}
+
+	header{
+	width: 80%;
+     margin: 0 auto;
+     font-size: 18px;
+	}
+
+	.flexslider{
+	padding: 10px;
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+	}
+
+	.slides{
+	padding: 10px;
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+	}
+
+	form{
+     width: 80%;
+	margin-top: 20px;
+	background: #D8D8D8;
+	box-sizing: border-box;
+     }
+
+    h1{
+	max-width: 80%;
+     margin: 0 auto;
+     font-size: 22px;
+     
+    }
+
+    h2{
+    	width: 80%;
+     max-width: 80%;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+    }
+
+   h3{
+     	width: 90%;
+     max-width: 500px;
+     margin: 0 auto;
+    }
+
+   h4{
+     background: #31384a;
+   	color: #fff;
+   	width: 84%;
+     padding: 10px;
+     text-align: center;
+	margin: 0.5em;
+	font-size: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+    }
+
+    h5{
+    	width: 80%;
+     text-align: center;
+	margin:1em;
+	font-size:18px;
+	}
+
+     h6{
+     	width:95%;
+     height: 600px;
+	text-align: center;
+	margin:1em;
+	font-size: 14px;
+	margin-bottom: 10px;
+	box-sizing: border-box
+     }
+
+    hr{
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    textarea{
+	 min-height: 100px;
+	 max-height: 400px;
+	 min-width: 80%;
+    }
+
+    .social{
+	 width: 80%;
+	 display: inline-block;
+	 margin: 1em;
+    }
